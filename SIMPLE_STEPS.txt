@@ -1,0 +1,29 @@
+SIMPLE STEPS - RAG CHATBOT v7
+===========================
+
+STEP 1: Delete old folder
+  Delete your old "RAG Assessment Project" folder.
+
+STEP 2: Unzip this ZIP
+  Unzip RAG_Chatbot_v7_SIMPLE.zip into a new folder.
+
+STEP 3: Double-click setup.bat
+  ONLY this file. Do NOT type Activate.ps1 yourself.
+  setup.bat will:
+    - Create venv folder
+    - Install all packages (3-5 min)
+    - Open the app automatically
+  Wait. Do NOT close. Do NOT press Ctrl+C.
+
+STEP 4: App opens
+  Browser opens at http://localhost:8501
+  Add Groq key in sidebar -> Upload file -> TRAIN -> Ask question.
+
+NEXT TIME (after setup done once):
+  Double-click RUN.bat - app opens in 10 seconds.
+
+IF YOU SEE ERROR:
+  .env\Scripts\Activate.ps1 is not recognized
+  = venv folder does not exist yet.
+  = You ran Activate BEFORE setup.bat.
+  FIX: Just double-click setup.bat. It creates venv for you.

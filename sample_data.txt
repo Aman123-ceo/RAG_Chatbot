@@ -1,0 +1,49 @@
+SPEED RADAR - DOPPLER SIMULATOR - STUDY NOTES
+
+1. WHAT IS DOPPLER EFFECT?
+The Doppler Effect is the change in frequency of a wave when the source and observer move relative to each other.
+When a vehicle moves TOWARDS the radar, the reflected frequency INCREASES.
+When a vehicle moves AWAY from the radar, the reflected frequency DECREASES.
+
+2. DOPPLER FORMULA
+f' = f * (c + vr) / (c - vs)
+Where:
+f = original transmitted frequency
+f' = observed / reflected frequency
+c = speed of wave (speed of light / sound)
+vr = velocity of receiver / observer
+vs = velocity of source
+
+3. HOW SPEED RADAR WORKS
+- Radar transmits radio waves towards a moving vehicle.
+- Waves reflect back from the vehicle.
+- Because vehicle is moving, reflected frequency is shifted (Doppler shift).
+- Radar measures this frequency shift.
+- Bigger shift = faster vehicle. Smaller shift = slower vehicle.
+- System calculates speed and displays it.
+
+4. APPLICATIONS OF DOPPLER EFFECT
+- Traffic police speed guns
+- Weather radar (rain, storm tracking)
+- Medical ultrasound (blood flow)
+- Astronomy (stars moving towards / away)
+- Aircraft navigation
+
+5. JAVA PROGRAMMING
+Java is a high-level, object-oriented programming language developed by Sun Microsystems in 1995.
+Four pillars of OOP: Encapsulation, Inheritance, Polymorphism, Abstraction.
+Java is platform independent because of JVM - Write Once, Run Anywhere (WORA).
+Java is used for Android apps, desktop apps, web backend, and enterprise software.
+
+6. ABOUT THE STUDENT
+Aman Kumar Maurya is a B.Tech Computer Science (Data Science + AI) student at Shri Ramswaroop Memorial University.
+Roll Number: 202410101150281. He is in 3rd Year (2024-2028).
+He builds Android games, Java projects, and AI tools. His games have 10,000+ active users on Play Store.
+Skills: Java, Python, SQL, HTML, CSS, JavaScript, Kotlin, Android Studio, VS Code, GitHub.
+Projects: Block Blast / Corvex Blast, Sugar Smash, Block Zingo, Student Registration System, SPEED RADAR Doppler Simulator.
+
+7. MACHINE LEARNING - RAG
+RAG means Retrieval Augmented Generation.
+Steps: Upload -> Chunking -> Embeddings -> FAISS Vector Store -> Retrieval -> LLM Answer.
+Embeddings convert text into numbers (vectors). Similar meanings have close vectors.
+FAISS is a fast vector database by Facebook AI for similarity search.

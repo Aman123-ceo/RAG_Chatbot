@@ -1,0 +1,18 @@
+# RAG v6 - FIXED (do NOT cancel pip install in middle!)
+streamlit>=1.40
+langchain>=0.3
+langchain-community>=0.3
+langchain-huggingface>=0.3
+langchain-text-splitters>=0.3
+langchain-core>=0.3
+langchain-groq>=0.3
+faiss-cpu>=1.10
+sentence-transformers>=3.4
+pandas>=2.2
+PyPDF2>=3.0
+python-docx>=0.8.4
+openpyxl>=3.1
+python-dotenv>=0.9
+requests>=2.31
+beautifulsoup4>=4.12
+ddgs>=9.0
